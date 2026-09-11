@@ -1,0 +1,12 @@
+schema_version: 1
+session_id: smoke-1
+topic: causal explanations
+entry_point: observed phenomenon
+target_depth: L2
+nodes_covered: [phenomenon]
+demonstrated_dimensions: [concept]
+evidence_status: established
+open_gaps: [mechanism]
+repairs: []
+next_action: explain mechanism with a changed condition
+created_at: 2026-09-11

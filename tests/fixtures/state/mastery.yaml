@@ -1,0 +1,11 @@
+schema_version: 1
+records:
+  - node_id: phenomenon
+    dimension: concept
+    evidence:
+      task_id: explain-1
+      response_summary: accurate distinction
+      rubric_score: 4
+      evaluator_uncertainty: low
+    attempted_at: 2026-09-11
+    open_gaps: []

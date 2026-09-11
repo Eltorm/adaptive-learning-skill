@@ -1,0 +1,10 @@
+schema_version: 1
+nodes:
+  - id: phenomenon
+    name: observed phenomenon
+    evidence_status: established
+    prerequisites: []
+  - id: mechanism
+    name: mechanism
+    evidence_status: widely_accepted
+    prerequisites: [phenomenon]

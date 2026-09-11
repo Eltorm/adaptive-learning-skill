@@ -1,0 +1,20 @@
+# Optional node shape; omit unknown fields rather than guessing.
+id: string
+name: string
+role: concept | mechanism | method | example | boundary | skill
+domain: [string]
+scale: string
+target_depth: L0 | L1 | L2 | L3 | L4 | L5 | L6
+path_role: mainline | foreshadow | side-branch
+prerequisites: [string]
+edges:
+  - type: prerequisite | part-of | causes | contrasts-with | shares-principle-with | alternative-to | trades-off-with | applies-to | fails-under
+    to: string
+    strength: Direct | Strong | Useful | Analogical | Weak | Incidental
+    exposure: A | B | C | internal-only
+core_claim: string
+mechanism: string
+examples: [string]
+boundaries: [string]
+evidence_status: established | widely_accepted | emerging | contested | uncertain | superseded | retracted
+mastery_checks: [string]

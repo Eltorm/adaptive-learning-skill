@@ -1,0 +1,6 @@
+schema_version: 1
+nodes:
+  - id: a
+    prerequisites: [b]
+  - id: b
+    prerequisites: [a]

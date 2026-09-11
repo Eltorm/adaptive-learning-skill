@@ -1,0 +1,11 @@
+topic: string
+scale: string
+target_depth: L0 | L1 | L2 | L3 | L4 | L5 | L6
+assumptions: [string]
+stages:
+  - id: string
+    outcome: string
+    node_ids: [string]
+    prerequisites: [string]
+    gate: string
+    estimated_effort: string

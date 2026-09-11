@@ -1,0 +1,10 @@
+schema_version: 1
+learner_id: string
+language: string
+goals: [string]
+background: [string]
+constraints:
+  time: string
+  format: string
+  safety: string
+preferences: [string]

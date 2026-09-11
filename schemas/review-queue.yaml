@@ -1,0 +1,7 @@
+schema_version: 1
+node_id: string
+due_at: string
+interval_days: number
+priority: low | medium | high
+reason: weakness | prerequisite | due | transfer | user_request
+variation_prompt: string

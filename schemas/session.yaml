@@ -1,0 +1,12 @@
+schema_version: 1
+session_id: string
+topic: string
+entry_point: string
+target_depth: L0 | L1 | L2 | L3 | L4 | L5 | L6
+nodes_covered: [string]
+demonstrated_dimensions: [concept, mechanism, formal, application, limits, transfer]
+evidence_status: established | provisional | uncertain
+open_gaps: [string]
+repairs: [{node_id: string, reason: string, action: string}]
+next_action: string
+created_at: string

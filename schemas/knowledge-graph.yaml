@@ -1,0 +1,14 @@
+schema_version: 1
+nodes:
+  - id: string
+    name: string
+    role: concept | mechanism | method | example | boundary | skill
+    path_role: mainline | foreshadow | side-branch
+    evidence_status: established | widely_accepted | emerging | contested | uncertain | superseded | retracted
+    claim_sources: [string]
+    prerequisites: [string]
+    edges:
+      - type: prerequisite | part-of | causes | contrasts-with | shares-principle-with | alternative-to | trades-off-with | applies-to | fails-under
+        to: string
+        strength: Direct | Strong | Useful | Analogical | Weak | Incidental
+        exposure: A | B | C | internal-only

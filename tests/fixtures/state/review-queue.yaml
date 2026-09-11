@@ -1,0 +1,8 @@
+schema_version: 1
+items:
+  - node_id: mechanism
+    due_at: 2026-09-12
+    interval_days: 1
+    priority: medium
+    reason: prerequisite
+    variation_prompt: predict the effect of changing one condition

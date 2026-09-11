@@ -1,0 +1,6 @@
+interface:
+  display_name: "Adaptive Learning"
+  short_description: "Build connected, adaptive learning paths"
+  default_prompt: "Use $adaptive-learning to turn a topic or question into a reliable learning path and a first lesson."
+policy:
+  allow_implicit_invocation: true

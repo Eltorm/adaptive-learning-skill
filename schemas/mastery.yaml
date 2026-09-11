@@ -1,0 +1,10 @@
+schema_version: 1
+node_id: string
+dimension: concept | mechanism | formal | application | limits | transfer
+evidence:
+  task_id: string
+  response_summary: string
+  rubric_score: number
+  evaluator_uncertainty: low | medium | high
+attempted_at: string
+open_gaps: [string]

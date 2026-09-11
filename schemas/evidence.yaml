@@ -1,0 +1,7 @@
+claim: string
+status: established | widely_accepted | emerging | contested | uncertain | superseded | retracted
+temporal_sensitivity: low | medium | high
+source_type: primary | official | synthesis | other
+sources: [string]
+verified_at: string
+notes: string
